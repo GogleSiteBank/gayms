@@ -1,0 +1,24 @@
+2048 cupcakes
+
+<h1>2048 cupcakes</h1>
+<iframe src="https://lablockedgames.com/funblocked/2048-cupcakes/index.html" width="100%" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<p>
+<center>
+<button onclick="openGame()" > Play in Fullscreen </button>
+<script>
+function openGame() {
+    var win = window.open ()
+    var url = "https://lablockedgames.com/funblocked/2048-cupcakes/index.html"
+    var iframe = win.document.createElement('iframe')
+    iframe.style.width = "100%"
+    iframe.style.height = "100%"
+    iframe.style.border = "none"
+    iframe.src = url
+    win.document.body.appendChild(iframe)
+}
+</script>
+</center>
+
+
